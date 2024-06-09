@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎来到中国空军介绍网站</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body onmousemove="playAudio()">
+    <!-- 最外层盒子 -->
+    <div id="airforce">
+        <!-- 头部 -->
+        <header>
+            <!-- 焦点图 -->
+            <div class="banner">
+                <img class="logo" src="./images/logo_p.png" alt="">
+                <img class="banner_img" src="./images/banner.png" alt="">
+            </div>
+            <!-- 导航栏 -->
+            <nav>
+                <a href="./index.html">首页</a>
+                <a href="./pages2.html">中国空军</a>
+                <a href="./pages3.html">空军历史</a>
+                <a href="./pages4.html">空军未来</a>
+                <a href="./pages5.html">主要武器</a>
+                <a href="./login.html">登陆</a>
+            </nav>
+        </header>
+        <!-- 中间主要内容区域 -->
+        <main>
+            <div class="Introduction">
+                <img class="air1" src="./images/air1.png" alt="">
+                <h2>中国人民解放军空军</h2>
+                <hr>
+                <p>
+                    中国人民解放军空军（People's Liberation Army Air
+                    Force）是中国人民解放军的空中作战力量。作为中国军队的重要组成部分，中国空军在保卫国家安全和维护国家主权方面发挥着重要作用。
+                </p>
+                <p>
+                    中国空军的历史可以追溯到1949年建军之初。经过几十年的发展，中国空军从最初的小规模部队逐渐成长为一支现代化、多样化的军种。在过去的几十年里，中国空军经历了技术的进步和现代化的转型，提高了作战能力和战斗力。
+                </p>
+                <p>
+                    中国空军装备了各种先进的飞机和导弹系统，其中最为知名的是歼-20隐形战斗机。歼-20是中国自主研发的第五代战斗机，具备隐形特性和超音速巡航能力，为中国空军提供了空中优势和远程打击能力。此外，中国空军还拥有其他型号的战斗机，如歼-16、歼-10等，以及轰炸机、侦察机、无人机等各类飞机，形成了一个多样化的作战力量。
+                </p>
+                <p>
+                    中国空军的任务范围广泛，包括空中巡逻、防空警戒、空中打击、侦察侦察等。它承担着保卫国家领土、维护国家海上权益、反恐维稳和应对突发事件等重要任务。中国空军还积极参与国际合作和维和行动，为世界和平和地区稳定做出了贡献。
+                </p>
+            </div>
+            <!-- 概况 -->
+            <div class="overview">
+                <div class="overview_box">
+                    <h2>军种概况</h2>
+                    <p>中国人民解放军空军是以航空兵为主体的军种。进行空中作战、对空作战和从空中对地面目标实施攻击的主要军事力量。由航空兵、地空导弹兵、高射炮兵、空降兵、雷达兵、电子对抗兵、通信兵等兵种和其他专业勤务部队组成。下辖军区空军和军（空降兵）、院校、科研试验等单位。建立有基本适应现代战争需要的作战指挥、教育训练、科研装备和后勤保障体系，具有较强的空中进攻作战、防空作战和空运空降力量，担负着维护国家主权、保卫祖国领空安全的重大使命。还负有抢险救灾，参加国家社会主义建设的任务
+                    </p>
+                    <p>
+                        空军是战略性军种，战略能力要与不断拓展的国家利益和不断变化的安全形势相适应。空军在改革强军中深化体系重塑，领导指挥体制、规模结构和力量编成焕然一新；歼-20、运-20、歼-16、歼-10C和轰-6K、空警-500，以及红旗-9防空导弹等新型武器装备投入新时代练兵备战，加快推进空天战略打击、战略预警、空天防御和战略投送等能力建设；中国空军不断拓展国际话语新空间，全力打造制胜空天的体系作战群和主导话语的舆论攻防群，实现硬实力和软实力协调发展
+                    </p>
+                </div>
+            </div>
+            <!-- 主要武器 -->
+            <div class="thelist">
+                <h2>主要武器</h2>
+                <ul>
+                    <li>
+                        <img src="./images/wuqi1.png" alt="">
+                        <p>战斗机</p>
+                    </li>
+                    <li>
+                        <img src="./images/wuqi2.png" alt="">
+                        <p>轰炸机</p>
+                    </li>
+                    <li>
+                        <img src="./images/wuqi3.png" alt="">
+                        <p>侦察机</p>
+                    </li>
+                    <li>
+                        <img src="./images/wuqi4.png" alt="">
+                        <p>空中加油机</p>
+                    </li>
+                    <li>
+                        <img src="./images/wuqi5.png" alt="">
+                        <p>地对空导弹系统</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="video">
+                <h2>视频资料</h2>
+                <video controls autoplay="autoplay" muted src="./media/kongjun.mp4"></video>
+            </div>
+        </main>
+        <!-- 页脚 -->
+        <footer>
+            版权所有&copy;中国空军介绍
+        </footer>
+        <audio id="myAudio" src="./media/audio.mp3" autoplay>
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</body>
+<script>
+    function playAudio() {
+        var audio = document.getElementById("myAudio");
+        audio.play();
+    }
+</script>
+
+</html>

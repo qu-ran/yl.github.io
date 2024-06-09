@@ -1,0 +1,384 @@
+/* 清除默认格式 */
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+html {
+    background-color: #ACC4D1;
+}
+
+/* <!-- 最外层盒子 --> */
+#airforce {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/* <!-- 头部 --> */
+header {
+    position: relative;
+}
+
+.banner {
+    text-align: center;
+    width: 100%;
+    font-size: 0px;
+}
+
+.banner_img {
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    width: 300px;
+    display: block;
+    left: 350px;
+    top: 206px;
+}
+
+nav {
+    background-color: #547897;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0px 50px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+nav a:hover {
+    color: #0A0B10;
+}
+
+main {
+    padding: 20px;
+}
+
+.Introduction {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.Introduction:hover {
+    transform: scale(1.02);
+}
+
+.Introduction p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.air1 {
+    float: left;
+    width: 220px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.overview {
+    width: 1000px;
+    margin-left: -20px;
+    margin-top: 30px;
+    background: url(../images/bg1.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.overview_box:hover {
+    transform: scale(1.02);
+}
+
+.overview_box {
+    text-align: center;
+    background-color: #0a0b1068;
+    color: #fff;
+    transition: transform 0.3s ease;
+    padding: 20px;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+.overview_box p {
+    font-size: 14px;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}
+
+.thelist {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.thelist ul {
+    font-size: 0px;
+}
+
+.thelist ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.thelist ul li:nth-child(1) {
+    margin-left: 0px;
+}
+
+.thelist ul li img {
+    width: 184px;
+    height: 118px;
+}
+
+.thelist ul li {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.thelist ul li:hover {
+    transform: scale(1.1);
+}
+
+.video {
+    text-align: center;
+}
+
+video {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    background-color: #547897;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+.little {
+    font-size: 12px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.little a {
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
+.pages2 {
+    text-align: center;
+}
+
+.pages2 p {
+    text-align: left;
+    font-size: 14px;
+    color: #666;
+    line-height: 26px;
+    margin-bottom: 10px;
+    text-indent: 2rem;
+}
+
+.pages2 img {
+    width: 600px;
+    margin: 10px 0px;
+}
+
+.pages3 h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pages3 table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.pages3 th,
+.pages3 td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: left;
+}
+
+.pages3 .subheader {
+    text-align: center;
+}
+
+.pages4 {
+    text-align: center;
+}
+
+.pages4 ul li {
+    text-align: left;
+}
+
+h4 {
+    background-color: #547897;
+    color: #fff;
+    line-height: 30px;
+    padding: 0px 20px;
+    transform: skewX(-30deg);
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.pages4 ul li {
+    margin-top: 20px;
+}
+
+.pages4 ul li p {
+    font-size: 14px;
+    line-height: 30px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.pages4 ul li p::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 4px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.mian_left {
+    width: 640px;
+    float: left;
+}
+
+.pagesbox img {
+    float: right;
+    width: 300px;
+    height: 192px;
+}
+
+.pagesbox {
+    margin: 20px 0px;
+}
+
+
+.clear {
+    clear: both;
+}
+
+.mian_left {
+    text-align: right;
+}
+
+h5 {
+    line-height: 30px;
+    color: #547897;
+}
+
+h5>hr {
+    border: 0px;
+    border-bottom: 1px dotted #547897;
+}
+
+.mian_left p {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.pagesbox2 {
+    margin: 20px 0px;
+}
+
+.pagesbox2 img {
+    float: left;
+    width: 300px;
+    height: 192px;
+}
+
+.pagesbox {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.pagesbox:hover {
+    transform: scale(1.02);
+}
+
+.pagesbox2 {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.pagesbox2:hover {
+    transform: scale(1.02);
+}
+
+.mian_right {
+    float: right;
+    width: 640px;
+    text-align: left;
+}
+
+
+.clear {
+    clear: both;
+}
+
+.mian_right p {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.login {
+    text-align: center;
+}
+
+.login_box img {
+    float: left;
+    width: 300px;
+    margin-left: 140px;
+}
+
+.login_right {
+    margin-top: 50px;
+    float: right;
+    margin-right: 236px;
+}
+
+.login_right input {
+    display: block;
+    width: 200px;
+    border: 1px solid #547897;
+    margin-bottom: 20px;
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.login_right input::placeholder {
+    font-size: 12px;
+}
+
+.login_right button {
+    width: 120px;
+    height: 30px;
+}
